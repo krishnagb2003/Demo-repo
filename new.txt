@@ -1,2 +1,18 @@
 Hello, This is my first Repository
+# View commit history
+git log
 
+# View recent changes
+git diff
+
+# Create a new branch
+git branch feature-name
+
+# Switch to a branch
+git checkout feature-name
+
+# Create and switch to a new branch
+git checkout -b feature-name
+
+# Delete a branch
+git branch -d feature-name
