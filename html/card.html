@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            background-color: rgb(255, 244, 244);
+        }
+
+        .card {
+            border: 2px solid black;
+            border-radius: 15px;
+            width: 304px;
+            height: 500px;
+            background-color: rgb(243, 247, 255);
+            box-shadow: 2px 0px 9px 0px rgb(201, 173, 173);
+        }
+
+        .box{
+            padding: 6px 45px 0px 40px;
+            border-radius: 2x;
+        }
+        .box span{
+            border: 1px solid black;
+            padding:1px 4px;
+            border-radius: 10px;
+            background-color: rgb(199, 224, 242);
+          
+    }
+        .img {
+
+            width: 290px;
+            height: 200px;
+            border-radius: 15px;
+            padding-left: 7px;
+            padding-top: 6px;
+        }
+
+        .para{
+
+            padding: 10px;
+            font-size: 20px;
+            text-align: left;
+            color: rgb(14, 14, 14);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(80, 72, 72);
+       }
+
+        .para1 {
+            text-align: center;
+            font-size: 18px;
+            color: rgb(14, 14, 14);
+            font-family: sans-serif;
+            text-underline-offset: 2px solid black;
+            text-decoration: underline;
+        }
+
+        .btn{
+            padding: 4px;
+            margin-left: 100px;
+            border-radius: 15px;
+            width: 100px;
+            height: 40px;
+            background-color: rgb(199, 224, 242);
+            color: rgb(0, 0, 255);
+            border: none;
+            margin-top: -30px;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            box-shadow: 4px 4px 6px 0px rgb(146, 135, 247);
+            cursor: pointer;
+           
+        }
+
+         button:hover{
+                background-color: rgb(253, 155, 155);
+                color: rgb(0, 0, 0);
+         }
+
+         .card1 {
+            width: 475px;
+            height: 320px;
+            align-items: center;
+            /* margin-top: -480px; */
+            margin-left: 390px;
+            border-radius: 20px;
+            box-shadow: 2px 0px 9px 0px rgb(201, 173, 173);
+         }
+
+         .cbox{
+            width: 560px;
+            height: 400px;
+            margin-top: -520px;
+            margin-left: 340px;
+            border-radius: 20px;
+            background-color: rgb(243, 247, 255);
+            box-shadow: 2px 0px 9px 0px rgb(201, 173, 173);
+         }
+         ::selection {color: rgb(255, 188, 3);
+            background-color: rgb(0, 0, 0);
+            }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="bmw.jpg" alt="Brave" class="img">
+        <div class="box"> <span>Buy</span>
+            <span>Share</span>
+        </div>
+        <h2 class="para1">BMW M4 GT</h2>
+        <p class="para">BMW M4 GT3 EVO.The GT3 model offers state-of-the-art technology for maximum drivability, efficiency and reliability.</p>
+           <a target="_blank" href="https://www.bmw-m.com/en/fastlane/motorsport/race-cars/bmw-m4-gt3-evo.html" >  <button class="btn"> Read More</button></a>
+    </div>
+<div class="cbox">
+    <div > 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E0jfxQq_gcw?si=zRGPih5-6kfqP_b_&amp;start=31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <a href="https://youtu.be/E0jfxQq_gcw" class="href"><button class="btn" style="margin-top: 15px; margin-left: 20px;">Watch Video</button></a>
+    </div>
+
+</body>
+
+</html>
