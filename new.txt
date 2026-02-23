@@ -1,2 +1,22 @@
 Hello, This is my first Repository
+<<<<<<< HEAD
 I Created My First program Using git and added the file to GitHub repository.
+=======
+# View commit history
+git log
+
+# View recent changes
+git diff
+
+# Create a new branch
+git branch feature-name
+
+# Switch to a branch
+git checkout feature-name
+
+# Create and switch to a new branch
+git checkout -b feature-name
+
+# Delete a branch
+git branch -d feature-name
+>>>>>>> 81abec8b3d49c9695283da2a71c17bc4de2b83c0
